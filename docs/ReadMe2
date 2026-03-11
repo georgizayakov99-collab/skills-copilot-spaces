@@ -1,0 +1,55 @@
+# OctoAcme Project Management Docs
+
+Welcome! This README is your entry point to OctoAcme project management knowledge. Here you'll find a summary of our approach, structured workflows, role definitions, communication cadence, and quality assurance practices—plus direct links to all detailed process documentation.
+
+---
+## Project Management Process: Summary
+OctoAcme employs a clear, five-phase lifecycle to deliver customer value and operational rigor:
+
+**Initiation**: Validate business need and clarify stakeholders, timeline, and success metrics through a Project One-pager. Obtain stakeholder alignment before kicking off.
+
+**Planning**: Create an actionable and prioritized backlog with well-defined acceptance criteria. Scope work, estimate effort, map dependencies, define release plan, and identify risks.
+
+**Execution**: Operate in tight feedback loops—daily standups and weekly syncs, frequent demos, progress tracked in GitHub Projects. Pull requests are small (≤400 lines), tested in CI, with at least one approval before merge. Blockers are escalated in three stages (team triage, PM escalation, sponsor-level).
+
+**Release**: Follow defined checklists: acceptance criteria met, CI/security green, release notes drafted, rollback plan in place, staged releases with smoke testing.
+
+**Retrospective**: After each milestone, the team conducts a structured retro: celebrate wins, capture areas for improvement, assign follow-up actions.
+
+### Roles
+- **Project Manager**: Delivery, schedules, risk, comms.
+- **Product Manager**: Outcomes, priorities, measure success.
+- **Developer**: Implement, test, review, estimate, and propose technical mitigations.
+- **QA/Testing**: Validates feature acceptance and standards.
+
+### Communication
+- Daily standups and weekly delivery syncs
+- Weekly Product/Project Manager sync
+- Monthly stakeholder updates
+- Escalation paths for risks/blockers
+
+### Quality Assurance
+- Automated unit, integration, and smoke tests
+- Security scanning in CI
+- Manual QA when needed
+- Release and post-release checklists (backup/rollback)
+
+### Key Artifacts
+- Project One-pager & Charter
+- Stakeholder and risk registers
+- Prioritized backlog (with DoD)
+- Release and retro notes
+- These documents are all versioned in the repo for shareability and onboarding
+
+---
+## Process Documentation Index
+- [Project Management Overview](./octoacme-project-management-overview.md)
+- [Project Initiation Guide](./octoacme-project-initiation.md)
+- [Project Planning](./octoacme-project-planning.md)
+- [Execution & Tracking](./octoacme-execution-and-tracking.md)
+- [Risk Management & Communication](./octoacme-risks-and-communication.md)
+- [Release & Deployment Guide](./octoacme-release-and-deployment.md)
+- [Retrospective & Continuous Improvement](./octoacme-retrospective-and-continuous-improvement.md)
+- [Roles and Personas](./octoacme-roles-and-personas.md)
+
+> Use this README as your single source for onboarding, reference, and ongoing improvement.
